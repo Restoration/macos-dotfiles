@@ -1,0 +1,6 @@
+brew "deno"
+brew "node"
+brew "neovim"
+brew "terraform"
+brew "terraformer"
+brew "vim"
