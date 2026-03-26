@@ -1,7 +1,11 @@
-{ config, pkgs, ... }:
+{ config, pkgs, username, ... }:
 {
-  home.username = "develop";
-  home.homeDirectory = "/Users/${config.home.username}";
+  imports = [
+    ./zsh.nix
+  ];
+
+  home.username = username;
+  home.homeDirectory = "/Users/${username}";
   home.stateVersion = "24.11";
 
   programs.home-manager.enable = true;

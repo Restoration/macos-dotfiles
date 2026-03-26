@@ -9,8 +9,12 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = inputs@{ self, nix-darwin, nixpkgs, home-manager }: {
-    darwinConfigurations."YOUR_HOSTNAME" = nix-darwin.lib.darwinSystem {
+  outputs = inputs@{ self, nix-darwin, nixpkgs, home-manager }:
+  let
+    username = "develop";
+    hostname = "develop";
+  in {
+    darwinConfigurations.${hostname} = nix-darwin.lib.darwinSystem {
       system = "aarch64-darwin";
       modules = [
         ./modules/darwin.nix
@@ -18,7 +22,8 @@
         {
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
-          home-manager.users.YOUR_USERNAME = import ./modules/home-manager.nix;
+          home-manager.extraSpecialArgs = { inherit username; };
+          home-manager.users.${username} = import ./modules/home-manager.nix;
         }
       ];
     };
