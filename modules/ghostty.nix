@@ -1,0 +1,16 @@
+{
+  programs.ghostty = {
+    enable = true;
+    settings = {
+      theme = "Catppuccin Mocha";
+      window-padding-x = 20;
+      window-padding-y = 5;
+      window-padding-balance = true;
+      window-theme = "ghostty";
+      background-opacity = 0.85;
+      background-blur-radius = 20;
+      macos-titlebar-style = "transparent";
+    };
+  };
+}
+
