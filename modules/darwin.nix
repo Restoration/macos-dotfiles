@@ -30,6 +30,7 @@
     # Casks (GUI)
     casks = [
       "appcleaner"
+      "arc"
       "cursor"
       "coteditor"
       "docker"
