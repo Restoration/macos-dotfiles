@@ -50,7 +50,29 @@
 
   # macOSのシステムレベルの設定
   system.defaults = {
-    dock.autohide = true;
+    dock = {
+      autohide = true;
+      show-recents = true;
+      persistent-apps = [
+        "/System/Library/CoreServices/Finder.app"
+        "/System/Applications/Mail.app"
+        "/System/Applications/App Store.app"
+        "/Applications/Ghostty.app"
+        "/Applications/Arc.app"
+        "/Applications/Google Chrome.app"
+        "/Applications/Firefox.app"
+        "/System/Applications/Safari.app"
+        "/Applications/Visual Studio Code.app"
+        "/Applications/CotEditor.app"
+        "/Applications/Fork.app"
+        "/Applications/Docker.app"
+        "/Applications/Figma.app"
+        "/Applications/Slack.app"
+        "/Applications/zoom.us.app"
+        "/Applications/Microsoft Teams.app"
+        "/System/Applications/System Settings.app"
+      ];
+    };
     finder.AppleShowAllExtensions = true;
     NSGlobalDomain.AppleShowAllExtensions = true;
   };
