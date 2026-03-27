@@ -29,9 +29,7 @@
 
     # Casks (GUI)
     casks = [
-      "anydo"
       "appcleaner"
-      "balenaetcher"
       "cursor"
       "coteditor"
       "docker"
@@ -40,16 +38,12 @@
       "fork"
       "google-chrome"
       "microsoft-teams"
-      "mullvadvpn"
       "onyx"
       "sitesucker-pro"
       "slack"
       "tableplus"
-      "vlc"
       "visual-studio-code"
-      "zeplin"
       "zoom"
-      "kitty"
     ];
   };
 
