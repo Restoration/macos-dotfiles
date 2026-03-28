@@ -1,7 +1,7 @@
 { ... }: {
   imports = [
-    ./zsh.nix
-    ./go.nix
-    ./ghostty.nix
+    ./zsh
+    ./go
+    ./ghostty
   ];
 }
