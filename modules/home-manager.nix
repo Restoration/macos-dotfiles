@@ -1,4 +1,9 @@
-{ config, pkgs, username, ... }:
+{
+  config,
+  pkgs,
+  username,
+  ...
+}:
 {
   imports = [
     ./pkgs
@@ -24,7 +29,7 @@
     terraformer
     lazydocker
     gcc
-    
+
     # Supabase
     supabase-cli
 

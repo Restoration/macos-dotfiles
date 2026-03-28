@@ -1,12 +1,16 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
 
   # Nix自体の設定（Flakesを有効にするために必須）
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
 
   # Homebrewとの統合設定
   homebrew = {
     enable = true;
-    
+
     # 設定ファイルにないツールを自動的に削除する（環境をクリーンに保つ）
     onActivation = {
       autoUpdate = true;
@@ -24,8 +28,8 @@
       "supabase/tap"
     ];
 
-    # Brews (CLI) 
-    brews = [];
+    # Brews (CLI)
+    brews = [ ];
 
     # Casks (GUI)
     casks = [
