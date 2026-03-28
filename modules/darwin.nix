@@ -35,6 +35,7 @@
     casks = [
       "appcleaner"
       "arc"
+      "claude-code"
       "cursor"
       "coteditor"
       "docker"
@@ -43,7 +44,6 @@
       "fork"
       "google-chrome"
       "microsoft-teams"
-      "onyx"
       "sitesucker-pro"
       "slack"
       "tableplus"
