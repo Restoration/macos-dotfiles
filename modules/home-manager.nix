@@ -1,9 +1,7 @@
 { config, pkgs, username, ... }:
 {
   imports = [
-    ./zsh.nix
-    ./go.nix
-    ./ghostty.nix
+    ./pkgs
   ];
 
   home.username = username;
