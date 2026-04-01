@@ -2,7 +2,7 @@
 {
   programs.go = {
     enable = true;
-    goPath = "go";
+    env.GOPATH = "/Users/develop/go";
     packages = {
       gopls = pkgs.gopls;
       delve = pkgs.delve;
