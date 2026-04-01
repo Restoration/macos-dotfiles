@@ -33,6 +33,8 @@
     lazysql
     gcc
     vim
+    neovim
+    tmux
 
     # Supabase
     supabase-cli
