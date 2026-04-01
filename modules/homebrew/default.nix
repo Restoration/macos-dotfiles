@@ -13,10 +13,6 @@
       appdir = "/Applications";
     };
 
-    taps = [
-      "supabase/tap"
-    ];
-
     brews = [ ];
 
     casks = [
