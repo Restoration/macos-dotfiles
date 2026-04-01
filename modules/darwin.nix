@@ -33,6 +33,8 @@
         "/Applications/Slack.app"
         "/Applications/Figma.app"
         "/Applications/Affinity Photo.app"
+        "/Applications/Affinity Designer.app"
+        "/Applications/Final Cut Pro.app"
         "/Applications/1Password.app"
         # "/Applications/zoom.us.app"
         # "/Applications/Microsoft Teams.app"
