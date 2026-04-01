@@ -18,7 +18,6 @@
       orientation = "right";
       show-recents = true;
       persistent-apps = [
-        "/System/Applications/Apps.app"
         "/System/Applications/Mail.app"
         "/System/Applications/Calendar.app"
         "/Applications/Ghostty.app"
@@ -39,6 +38,7 @@
         # "/Applications/zoom.us.app"
         # "/Applications/Microsoft Teams.app"
         "/System/Applications/System Settings.app"
+        "/System/Applications/Apps.app"
       ];
     };
     finder.AppleShowAllExtensions = true;
