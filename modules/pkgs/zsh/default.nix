@@ -39,8 +39,6 @@
       check_nodem = "find . -name 'node_modules' -type d -prune -print | xargs du -chs";
       clean_dsstore = "sudo find . -name '.DS_Store' -print -delete";
       clean_nodem = "find . -name 'node_modules' -type d -prune -print -exec rm -rf '{}' \\;";
-      cmtx = "cmatrix";
-      ctime = "tty-clock";
       ldocker = "lazydocker";
       lgit = "lazygit";
       ll = "ls -l";
@@ -48,7 +46,6 @@
       r = "ranger";
       update = "darwin-rebuild switch --flake";
       v = "vim";
-      ytdl = "yt-dlp -f 'bv*+ba/b' -S 'res,ext:mp4:m4a' -o '%(title)s.%(ext)s'";
     };
 
     sessionVariables = {
@@ -61,13 +58,6 @@
       eval "$(pyenv init --path)"
       eval "$(pyenv init -)"
       export PATH="$GOPATH/bin:$PATH"
-
-      if test -n "$KITTY_INSTALLATION_DIR"; then
-        export KITTY_SHELL_INTEGRATION="no-rc"
-        autoload -Uz -- "$KITTY_INSTALLATION_DIR"/shell-integration/zsh/kitty-integration
-        kitty-integration
-        unfunction kitty-integration
-      fi
 
       if [[ -n $GHOSTTY_RESOURCES_DIR ]]; then
         source "$GHOSTTY_RESOURCES_DIR"/shell-integration/zsh/ghostty-integration

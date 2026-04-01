@@ -4,6 +4,10 @@
     ./homebrew
   ];
 
+  system.primaryUser = "develop";
+
+  nixpkgs.config.allowUnfree = true;
+
   # Nix自体の設定（Flakesを有効にするために必須）
   nix.settings.experimental-features = [
     "nix-command"

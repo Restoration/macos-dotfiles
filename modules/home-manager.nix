@@ -23,16 +23,22 @@
   home.packages = with pkgs; [
     # 開発ツール
     deno
-    nodejs_20
-    python310
+    nodejs_22
+    python313
     pyenv
     terraform
     terraformer
     lazydocker
+    lazygit
+    lazysql
     gcc
+    vim
 
     # Supabase
     supabase-cli
+
+    # CLI ツール
+    ranger
 
     # メディア・ライブラリ系
     ffmpeg
