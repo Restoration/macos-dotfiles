@@ -51,15 +51,12 @@
     sessionVariables = {
       GOPATH = "$HOME/go";
       PYENV_ROOT = "$HOME/.pyenv";
+      BUN_INSTALL = "$HOME/.bun";
+      PATH = "$HOME/.local/bin:$BUN_INSTALL/bin:$GOPATH/bin:$PATH";
     };
 
     initContent = ''
-      export PATH="$PYENV_ROOT/bin:$PATH"
-      eval "$(pyenv init --path)"
       eval "$(pyenv init -)"
-      export PATH="$GOPATH/bin:$PATH"
-
-      if [[ -n $GHOSTTY_RESOURCES_DIR ]]; then
         source "$GHOSTTY_RESOURCES_DIR"/shell-integration/zsh/ghostty-integration
       fi
     '';
