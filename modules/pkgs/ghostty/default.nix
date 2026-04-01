@@ -1,6 +1,7 @@
 {
   programs.ghostty = {
     enable = true;
+    package = null;
     settings = {
       theme = "Catppuccin Mocha";
       window-padding-x = 20;
