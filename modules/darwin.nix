@@ -8,34 +8,34 @@
 
   nixpkgs.config.allowUnfree = true;
 
-  # Nix自体の設定（Flakesを有効にするために必須）
-  nix.settings.experimental-features = [
-    "nix-command"
-    "flakes"
-  ];
+  # Determinate Nix を使用しているため、nix-darwinのNix管理を無効化
+  nix.enable = false;
 
   # macOSのシステムレベルの設定
   system.defaults = {
     dock = {
-      autohide = true;
+      autohide = false;
+      orientation = "right";
       show-recents = true;
       persistent-apps = [
-        "/System/Library/CoreServices/Finder.app"
+        "/System/Applications/Apps.app"
         "/System/Applications/Mail.app"
-        "/System/Applications/App Store.app"
+        "/System/Applications/Calendar.app"
         "/Applications/Ghostty.app"
         "/Applications/Arc.app"
         "/Applications/Google Chrome.app"
         "/Applications/Firefox.app"
-        "/System/Applications/Safari.app"
+        "/Applications/Claude.app"
         "/Applications/Visual Studio Code.app"
         "/Applications/CotEditor.app"
         "/Applications/Fork.app"
         "/Applications/Docker.app"
-        "/Applications/Figma.app"
         "/Applications/Slack.app"
-        "/Applications/zoom.us.app"
-        "/Applications/Microsoft Teams.app"
+        "/Applications/Figma.app"
+        "/Applications/Affinity Photo.app"
+        "/Applications/1Password.app"
+        # "/Applications/zoom.us.app"
+        # "/Applications/Microsoft Teams.app"
         "/System/Applications/System Settings.app"
       ];
     };
