@@ -21,7 +21,7 @@
     }:
     let
       username = "develop";
-      hostname = "develop";
+      hostname = "develops-MacBook-Air";
       system = "aarch64-darwin";
       mkFormatter =
         sys:
