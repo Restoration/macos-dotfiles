@@ -1,4 +1,5 @@
 {
+  # Gosttyはdarwinで管理し、設定のみhome-managerで管理する
   programs.ghostty = {
     enable = true;
     package = null;
