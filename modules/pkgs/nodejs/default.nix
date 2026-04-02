@@ -1,18 +1,16 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
-    nodejs
     yarn
     pnpm
     bun
-    nodePackages.typescript
-    nodePackages.nodemon
-    nodePackages.serve
-    nodePackages.eslint
-    nodePackages.eas-cli
+    pkgs.typescript
+    pkgs.nodemon
+    pkgs.serve
+    pkgs.eslint
+    pkgs.eas-cli
     # LSPツールのインストール
-    nodePackages.typescript-language-server
+    pkgs.typescript-language-server
     # Playwright用
-    chromium
     playwright-driver.browsers
   ];
 }
