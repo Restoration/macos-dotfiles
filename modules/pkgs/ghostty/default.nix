@@ -12,6 +12,10 @@
       background-opacity = 0.85;
       background-blur-radius = 20;
       macos-titlebar-style = "transparent";
+      window-save-state = "always";
+      macos-window-shadow = true;
+      clipboard-paste-protection = true;
+      mouse-hide-while-typing = true;
     };
   };
 }
