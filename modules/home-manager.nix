@@ -39,6 +39,10 @@
     # Supabase
     supabase-cli
 
+    # クラウド CLI
+    google-cloud-sdk
+    awscli2
+
     # CLI ツール
     ranger
 
