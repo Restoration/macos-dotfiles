@@ -5,5 +5,6 @@
     ./go
     ./ghostty
     ./nodejs
+    ./nix-tools
   ];
 }
