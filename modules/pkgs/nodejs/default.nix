@@ -8,6 +8,7 @@
     pkgs.serve
     pkgs.eslint
     pkgs.eas-cli
+    pkgs.vercel
     # LSPツールのインストール
     pkgs.typescript-language-server
     # Playwright用

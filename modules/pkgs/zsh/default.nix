@@ -46,6 +46,7 @@
       r = "ranger";
       nix-rebuild = "darwin-rebuild switch --flake ~/.config/nix";
       v = "vim";
+      vc = "vercel";
     };
 
     sessionVariables = {
