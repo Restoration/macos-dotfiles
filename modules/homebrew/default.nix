@@ -21,6 +21,7 @@
       "claude-code"
       "cursor"
       "coteditor"
+      "cmux"
       "docker-desktop"
       "figma"
       "firefox"
