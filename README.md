@@ -55,13 +55,13 @@ scutil --get LocalHostName
 ### 5. nix-darwin の初回インストール
 
 ```bash
-nix run nix-darwin -- switch --flake ~/.config/nix
+sudo nix run nix-darwin -- switch --flake ~/.config/nix
 ```
 
 ### 6. 以降の設定反映
 
 ```bash
-darwin-rebuild switch --flake ~/.config/nix
+sudo darwin-rebuild switch --flake ~/.config/nix
 ```
 
 ## HHKB
