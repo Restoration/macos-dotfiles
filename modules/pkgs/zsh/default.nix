@@ -43,7 +43,7 @@
       lgit = "lazygit";
       ll = "ls -l";
       lsql = "lazysql";
-      r = "ranger";
+      r = "yazi";
       nix-rebuild = "darwin-rebuild switch --flake ~/.config/nix";
       v = "vim";
     };
