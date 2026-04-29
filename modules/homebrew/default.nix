@@ -18,6 +18,7 @@
     casks = [
       "appcleaner"
       "arc"
+      "balenaetcher"
       "chromium"
       "claude-code"
       "cursor"
