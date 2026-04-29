@@ -22,7 +22,6 @@
         "/System/Applications/Calendar.app"
         "/Applications/Ghostty.app"
         "/Applications/Arc.app"
-        "/Applications/Chromium.app"
         "/Applications/Google Chrome.app"
         "/Applications/Firefox.app"
         "/Applications/Claude.app"
