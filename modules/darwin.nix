@@ -22,6 +22,7 @@
         "/System/Applications/Calendar.app"
         "/Applications/Ghostty.app"
         "/Applications/Arc.app"
+        "/Applications/Chromium.app"
         "/Applications/Google Chrome.app"
         "/Applications/Firefox.app"
         "/Applications/Claude.app"
@@ -36,8 +37,8 @@
         "/Applications/Affinity Designer.app"
         "/Applications/Final Cut Pro.app"
         "/Applications/1Password.app"
-        # "/Applications/zoom.us.app"
-        # "/Applications/Microsoft Teams.app"
+        "/Applications/zoom.us.app"
+        "/Applications/Microsoft Teams.app"
         "/System/Applications/System Settings.app"
         "/System/Applications/Apps.app"
       ];
