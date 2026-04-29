@@ -18,6 +18,7 @@
     casks = [
       "appcleaner"
       "arc"
+      "chromium"
       "claude-code"
       "cursor"
       "coteditor"
