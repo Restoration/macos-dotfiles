@@ -35,6 +35,7 @@
     vim
     neovim
     tmux
+    trivy
 
     # Supabase
     supabase-cli
@@ -44,7 +45,9 @@
     awscli2
 
     # CLI ツール
-    ranger
+    yazi
+    tree
+    glow
 
     # メディア・ライブラリ系
     ffmpeg
