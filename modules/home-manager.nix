@@ -45,15 +45,19 @@
     awscli2
 
     # CLI ツール
-    yazi
     tree
     glow
 
     # メディア・ライブラリ系
     ffmpeg
+
+    # OCR 関連
+    yazi
     tesseract
     imagemagick
     libarchive
+
+    # DNS 関連
     gnutls
     unbound
   ];
