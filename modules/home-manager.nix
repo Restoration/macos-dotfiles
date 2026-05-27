@@ -47,6 +47,8 @@
     # CLI ツール
     tree
     glow
+    jq
+    yq
 
     # メディア・ライブラリ系
     ffmpeg
