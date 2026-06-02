@@ -9,6 +9,8 @@
     pkgs.nodemon
     pkgs.serve
     pkgs.eslint
+    pkgs.prettier
+    pkgs.biome
     pkgs.eas-cli
     # LSPツールのインストール
     pkgs.typescript-language-server
