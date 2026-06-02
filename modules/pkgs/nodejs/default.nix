@@ -1,7 +1,9 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
-    yarn
+    nodejs_24
+    nodePackages.npm
     pnpm
+    yarn
     bun
     pkgs.typescript
     pkgs.nodemon
