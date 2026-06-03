@@ -44,7 +44,7 @@
       ll = "ls -l";
       lsql = "lazysql";
       r = "yazi";
-      nix-rebuild = "darwin-rebuild switch --flake ~/.config/nix";
+      nix-rebuild = "sudo darwin-rebuild switch --flake ~/.config/nix";
       v = "vim";
     };
 
