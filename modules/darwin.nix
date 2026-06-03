@@ -42,7 +42,6 @@
         "/System/Applications/Apps.app"
       ];
     };
-    finder.AppleShowAllExtensions = true;
     NSGlobalDomain.AppleShowAllExtensions = true;
   };
 
