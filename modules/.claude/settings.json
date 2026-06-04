@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nix-env -qaP 'nodejs_*')",
+      "Bash(nix search *)",
+      "Bash(nix-env -qaP 'biome' 'prettier')"
+    ]
+  }
+}
