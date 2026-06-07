@@ -25,6 +25,8 @@
     deno
     python314
     pyenv
+    rustc
+    cargo
     terraform
     terraformer
     lazydocker
