@@ -23,7 +23,7 @@
   home.packages = with pkgs; [
     # 開発ツール
     deno
-    python313
+    python314
     pyenv
     terraform
     terraformer
