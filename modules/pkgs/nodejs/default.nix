@@ -1,12 +1,16 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
-    yarn
+    nodejs_24
+    nodePackages.npm
     pnpm
+    yarn
     bun
     pkgs.typescript
     pkgs.nodemon
     pkgs.serve
     pkgs.eslint
+    pkgs.prettier
+    pkgs.biome
     pkgs.eas-cli
     # LSPツールのインストール
     pkgs.typescript-language-server

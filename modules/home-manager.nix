@@ -23,8 +23,7 @@
   home.packages = with pkgs; [
     # 開発ツール
     deno
-    nodejs_22
-    python313
+    python314
     pyenv
     terraform
     terraformer
@@ -45,15 +44,21 @@
     awscli2
 
     # CLI ツール
-    yazi
     tree
     glow
+    jq
+    yq
 
     # メディア・ライブラリ系
     ffmpeg
+
+    # OCR 関連
+    yazi
     tesseract
     imagemagick
     libarchive
+
+    # DNS 関連
     gnutls
     unbound
   ];
