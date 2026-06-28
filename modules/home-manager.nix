@@ -35,6 +35,7 @@
     neovim
     tmux
     trivy
+    wails
 
     # Supabase
     supabase-cli
