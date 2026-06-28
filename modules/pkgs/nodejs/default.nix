@@ -1,7 +1,6 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
     nodejs_24
-    nodePackages.npm
     pnpm
     yarn
     bun
