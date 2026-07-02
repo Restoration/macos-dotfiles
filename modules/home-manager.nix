@@ -33,7 +33,6 @@
     gcc
     vim
     neovim
-    tmux
     trivy
     wails
 
