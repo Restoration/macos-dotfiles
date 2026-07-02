@@ -21,7 +21,6 @@
       "balenaetcher"
       "chromium"
       "claude-code"
-      "cursor"
       "coteditor"
       "cmux"
       "docker-desktop"
