@@ -17,14 +17,9 @@
 
     casks = [
       "appcleaner"
-      "arc"
-      "balenaetcher"
-      "chromium"
       "claude-code"
-      "coteditor"
       "cmux"
       "docker-desktop"
-      "figma"
       "firefox"
       "fork"
       "ghostty"
