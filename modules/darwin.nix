@@ -29,7 +29,6 @@
         "/Applications/Fork.app"
         "/Applications/Docker.app"
         "/Applications/Slack.app"
-        "/Applications/Figma.app"
         "/Applications/Affinity Photo.app"
         "/Applications/Affinity Designer.app"
         "/Applications/Final Cut Pro.app"
