@@ -22,11 +22,9 @@
 
   home.packages = with pkgs; [
     # 開発ツール
-    deno
     python314
     pyenv
     terraform
-    terraformer
     lazydocker
     lazygit
     lazysql
