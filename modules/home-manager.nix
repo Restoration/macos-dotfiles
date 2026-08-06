@@ -32,7 +32,6 @@
     vim
     neovim
     trivy
-    wails
 
     # Supabase
     supabase-cli

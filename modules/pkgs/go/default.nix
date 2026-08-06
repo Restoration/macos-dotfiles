@@ -1,8 +1,8 @@
-{ pkgs, ... }:
+{ pkgs, config, ... }:
 {
   programs.go = {
     enable = true;
-    env.GOPATH = "/Users/develop/go";
+    env.GOPATH = "${config.home.homeDirectory}/go";
     packages = {
       gopls = pkgs.gopls;
       delve = pkgs.delve;
