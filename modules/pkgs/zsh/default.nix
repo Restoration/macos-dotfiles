@@ -51,6 +51,7 @@
     sessionVariables = {
       PYENV_ROOT = "$HOME/.pyenv";
       BUN_INSTALL = "$HOME/.bun";
+      GOPATH = "$HOME/go";
       PATH = "$HOME/.local/bin:$BUN_INSTALL/bin:$GOPATH/bin:$PATH";
     };
 
