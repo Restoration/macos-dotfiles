@@ -16,7 +16,9 @@
     brews = [ ];
 
     casks = [
+      "1password"
       "appcleaner"
+      "claude"
       "claude-code"
       "cmux"
       "docker-desktop"
