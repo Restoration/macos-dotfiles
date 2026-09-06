@@ -18,9 +18,12 @@
     casks = [
       "1password"
       "appcleaner"
+      "chatgpt"
       "claude"
       "claude-code"
       "cmux"
+      "codex"
+      "codex-app"
       "docker-desktop"
       "firefox"
       "fork"
