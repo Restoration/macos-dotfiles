@@ -24,6 +24,7 @@
         "/Applications/Google Chrome.app"
         "/Applications/Firefox.app"
         "/Applications/Claude.app"
+        "/Applications/Codex.app"
         "/Applications/cmux.app"
         "/Applications/Visual Studio Code.app"
         "/Applications/Fork.app"
