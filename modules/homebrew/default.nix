@@ -26,7 +26,6 @@
       "codex-app"
       "docker-desktop"
       "firefox"
-      "fork"
       "ghostty"
       "google-chrome"
       "microsoft-teams"

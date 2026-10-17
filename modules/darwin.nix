@@ -27,7 +27,6 @@
         "/Applications/Codex.app"
         "/Applications/cmux.app"
         "/Applications/Visual Studio Code.app"
-        "/Applications/Fork.app"
         "/Applications/Docker.app"
         "/Applications/Slack.app"
         "/Applications/Affinity Photo.app"
