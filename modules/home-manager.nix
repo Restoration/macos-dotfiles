@@ -16,13 +16,17 @@
 
   programs.home-manager.enable = true;
 
+  # pip同梱のcertifiはemSignルートを含むため、システムの信頼ストアを使わせる
+  # pip 26.2.2以上がnixpkgsに入ったら削除
+  home.sessionVariables.PIP_CERT = "/etc/ssl/certs/ca-certificates.crt";
+
   programs.git = {
     enable = true;
   };
 
   home.packages = with pkgs; [
     # 開発ツール
-    python314
+    # python314 # 様子見のため一時無効化
     pyenv
     terraform
     lazydocker

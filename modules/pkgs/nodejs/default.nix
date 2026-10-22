@@ -1,6 +1,6 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
-    nodejs_24
+    (import ./nodejs-bin.nix {inherit pkgs;})
     pnpm
     yarn
     bun
